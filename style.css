@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body {
+     height: 100vh;
+     background-color: rgba(255, 200, 205, 0.825);
+}
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+.scores {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    font-size: 25px;  
+    gap: 60px;
+}
+
+.score {
+    text-align: center;
+}
+
+.score p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(53, 98, 83);
+    
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+
+}
+
+.choices div img {
+    height: 100px;
+}
+
+
+
+#comp img , #user img {
+    height: 250px;
+
+}
+
+#msg {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #5e1468;
+    text-align: center;
+}
